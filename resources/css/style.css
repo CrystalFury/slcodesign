@@ -1,6 +1,6 @@
 html {
-  font-size: 14px;
-  /* font-family: "Raleway", Helvetica, sans-serif; */
+  font-size: 16px;
+  font-family: "Raleway", Helvetica, sans-serif;
   color: dimgrey;
 }
 
@@ -11,4 +11,69 @@ html {
 img, video {
   max-width: 100%;
   height: auto;
+}
+
+/* Header styles */
+
+li a {
+  display: block;
+  color: dimgrey;
+  text-align: center;
+  font-weight: bold;
+  padding: .25rem;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: red;
+}
+
+header {
+  display: flex;
+  margin-top: 1rem;
+}
+
+header li {
+  float: left;
+}
+
+.logo {
+  flex-grow: 1;
+  margin-left: 2.5rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 2.5rem;
+}
+
+.navigation li {
+  margin: 0 2rem;
+  font-size: 1.175rem;
+  padding-top: .5rem;
+}
+
+.navigation li:first-child {
+  margin: 0 2rem 0 0;
+}
+
+.navigation li:last-child {
+  margin: 0 1rem 0 2rem;
+}
+
+.logo img {
+  width: 15rem;
+}
+
+.social img {
+  width: 3rem;
+}
+
+/* Banner styles */
+
+.banner-image {
+  margin-top: .75rem;
 }
