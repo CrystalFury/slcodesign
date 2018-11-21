@@ -2,6 +2,7 @@ html {
   font-size: 16px;
   font-family: "Raleway", Helvetica, sans-serif;
   color: dimgrey;
+
 }
 
 .mobile {
@@ -18,7 +19,6 @@ img, video {
 li a {
   display: block;
   color: dimgrey;
-  text-align: center;
   font-weight: bold;
   padding: .25rem;
   text-decoration: none;
@@ -69,11 +69,71 @@ nav {
 }
 
 .social img {
-  width: 3rem;
+  width: 3.25rem;
 }
 
 /* Banner styles */
 
 .banner-image {
-  margin-top: .75rem;
+  margin: .75rem 0 6rem 0;
+}
+
+.banner-text {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.banner-text h1 {
+  font-size: 6.5rem;
+  color: lightblue;
+}
+
+.banner-text h2 {
+  margin: 4rem 0;
+  font-size: 2.125rem;
+}
+
+/* Skill styles */
+
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-container {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skills img {
+  width: 18rem;
+}
+
+.skill-text h3 {
+  font-size: 3.25rem;
+  font-weight: bold;
+  color: lightblue;
+  padding-top: 3rem;
+}
+
+.skill-text p {
+  font-size: 1.625rem;
+  line-height: 2.5rem;
+  padding: 3rem 5rem;
+}
+
+/* footer styles */
+
+
+footer {
+  margin-top: 5rem;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
 }
